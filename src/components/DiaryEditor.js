@@ -48,7 +48,7 @@ const DiaryEditor = ({isEdit, originData}) => {
 
   const handleRemove = () => {
     onRemove(originData.id)
-    navigate(-1, {replace: true})
+    navigate('/', {replace: true})
   }
 
   return (
